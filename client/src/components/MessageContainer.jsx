@@ -22,9 +22,9 @@ const MessageContainer = () => {
         <NoChatSelected />
       ) : (
         <>
-          <div className='bg-slate-500 px-4 py-2 mb-2'>
-            <span className='label-text'>To:</span>{" "}
-            <span className='text-gray-900 font-bold'>{fullName}</span>
+          <div className='shadow-xl p-2 px-4 py-5 flex items-center justify-start'>
+            <span className='text-blue-950 '>To:&nbsp;</span>
+            <span className='text-black font-bold'>{fullName}</span>
           </div>
           <Messages />
           <MessageInput />

@@ -6,8 +6,6 @@ const Conversation = ({ user, emoji }) => {
   const { selectedConversation, setSelectedConversation } = useConversations();
   const isSelected = selectedConversation?._id === user._id;
 
-
-
   return (
     <>
       <div onClick={()=>setSelectedConversation(user)} className={`flex gap-2 items-center hover:bg-sky-500 rounded p-2 py-1 cursor-pointer ${isSelected ? "bg-sky-500": ""}`}>

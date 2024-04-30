@@ -1,22 +1,16 @@
 import { useEffect } from "react";
-import useMessages from "../hooks/useMessages";
+import useMessages from "../hooks/useMessages"
 import Message from "./Message";
 
 const Messages = () => {
-    const { messages, loading, sendMessage } = useMessages();
-     
-    let messageList = Array.isArray(messages?.messages) ? messages.messages : [];
-
-    useEffect(() => {
-        console.log("Messages", messages);
-    }, [messages, sendMessage]);
-
+    const { messages, loading} = useMessages();
+  
     return (
-        <div className='px-4 flex-1 overflow-auto'>
+        <div className='px-4 flex-1 overflow-auto mt-4'>
             {loading ? (
                 <p className='text-center'>Loading...</p>
-            ) : messageList.length > 0 ? (
-                messageList.map((message) => (
+            ) : messages.length > 0 ? (
+                messages.map((message) => (
                     <Message key={message._id} mesaj={message} />
                 ))
             ) : (

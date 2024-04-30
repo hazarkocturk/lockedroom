@@ -4,7 +4,6 @@ import toast from 'react-hot-toast'
 
 const useGetConversations = () => {
     const [conversations, setConversations] = useState([])
-    console.log(conversations)
     useEffect(() => {
         const getConversations = async () => {
             try {
