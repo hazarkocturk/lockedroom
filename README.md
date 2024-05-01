@@ -21,8 +21,8 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/chat-app-backend.git
-Save to grepper
+git clone git@github.com:Junior-dev-Track/23-fullstack-lokkeroom-hazarkocturk.git
+
 Navigate to the cloned directory:
 
 bash
