@@ -187,9 +187,9 @@ frontend/
  
 ### Dependencies
 
-React: JavaScript library for building user interfaces.
-React Router: Declarative routing for React applications.
-Tailwind: Frontend framework for responsive and mobile-first development.
-Zustand: Library for creating global states.
+- React: JavaScript library for building user interfaces.
+- React Router: Declarative routing for React applications.
+- Tailwind: Frontend framework for responsive and mobile-first development.
+- Zustand: Library for creating global states.
 
 Feel free to customize the frontend application according to your specific requirements and design preferences.
