@@ -157,7 +157,6 @@ yarn install
 To start the frontend application, run the following command:
 
 ```bash
-Copy code
 npm start
 # Or
 yarn start
@@ -172,8 +171,7 @@ Message History: Users can view past messages in a conversation.
 ### Folder Structure
 The frontend application follows a typical folder structure:
 
-php
-
+```
 frontend/
   ├── public/            # Public assets and HTML template
   ├── src/               # Source files
@@ -185,7 +183,8 @@ frontend/
   │   ├── services/      # API service functions
   │   └── App.js         # Main application component
   └──  package.json      # Node.js dependencies and scripts
-  
+ ```
+ 
 ### Dependencies
 
 React: JavaScript library for building user interfaces.
