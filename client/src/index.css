@@ -8,3 +8,6 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.colored-shadow {
+    box-shadow: 0 4px 6px -1px #ff0000, 0 2px 4px -1px #ff0000;
+  }

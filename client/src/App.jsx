@@ -11,7 +11,7 @@ export default function App() {
   
   return (
   
-      <div className="p-4 h-screen flex items-center justify-center">
+      <div className="p-4 h-screen flex items-center justify-center bg-black">
        <Routes>
           <Route path='/' element={authUser?<Home/>:<Navigate to={"/login"}/>} />
           <Route path='/login' element={authUser?<Navigate to='/'/> : <Login />}  />

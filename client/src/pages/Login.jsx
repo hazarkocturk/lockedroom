@@ -13,15 +13,15 @@ const Login = () => {
     };
 
     return (
-        <div className='flex flex-col items-center justify-center min-w-96 mx-auto'>
-            <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
+        <div className='flex flex-col items-center justify-center min-w-96 mx-auto '>
+            <div className='w-full p-20 rounded-lg shadow-md  bg-clip-padding border-2 border-orange-600 colored-shadow'>
                 <h1 className='text-3xl font-semibold text-center text-slate-700'>
                     Login <span className='text-orange-600 text font-serif italic'> LOCKEDROOM</span>
                 </h1>
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor='username' className='label p-2'>
-                            <span className='text-base label-text text-slate-700'>Username</span>
+                            <span className='label-text text-slate-700 text-xs'>Username</span>
                         </label>
                         <input
                             type='text'
@@ -34,7 +34,7 @@ const Login = () => {
                     </div>
                     <div>
                         <label htmlFor='password' className='label p-2'>
-                            <span className='text-base label-text text-slate-700'>Password</span>
+                            <span className='label-text text-slate-700 text-xs'>Password</span>
                         </label>
                         <input
                             type='password'
@@ -47,11 +47,11 @@ const Login = () => {
                     </div>
                     <Link
                         to='/signup'
-                        className='text-sm hover:underline text-slate-100 hover:text-blue-600 mt-2 px-2 inline-block'
+                        className='text-sm hover:underline text-slate-100  mt-2 px-2 inline-block '
                     >
                         {"Don't"} have an account?
                     </Link>
-                    <button className='btn btn-block btn-sm mt-2'>Login</button>
+                    <button className='btn btn-block btn-sm mt-2 bg-orange-600 hover:bg-orange-700 text-white hover:scale-105'>Login</button>
                 </form>
             </div>
         </div>
